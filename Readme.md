@@ -1,7 +1,7 @@
 ﻿# Личный проект «Техномарт»
 
-* Студент: [Юлия](https://up.htmlacademy.ru/htmlcss/27/user/1338117).
-* Наставник: Антон Попов.
+* Студент: [Юлия](https://up.htmlacademy.ru/htmlcss/28/user/1338117).
+* Наставник: `Неизвестно`.
 
 ---
 
@@ -18,7 +18,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/1338117-technomart-27) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/1338117-technomart-28) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037784-cf833fec-7bad-11e7-8eec-dfe32aac11b1.jpg">
 
