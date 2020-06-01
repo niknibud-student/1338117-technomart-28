@@ -1,0 +1,15 @@
+/* ----- Сеточные стили ----- */
+
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url('../img/technomart-index.jpg');
+  background-size: 1200px auto;
+  background-repeat: no-repeat;
+}
+

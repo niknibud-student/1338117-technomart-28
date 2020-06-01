@@ -1,0 +1,624 @@
+html,
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.85;
+  color: black;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+
+.button-red {
+  color: #ffffff;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  background-color: #ee3643;
+}
+
+.button-red:hover {
+  background-color: #ca2c37;
+}
+
+.button-red:active {
+  background-color: #ba2732;
+}
+
+.button-buy {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  background-color: #63a63e;
+  box-shadow: inset 0px -3px 0 0 #367315;
+}
+
+.button-save {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 3px #63a63e;
+  border-radius: 3px;
+}
+
+.item-options .button-buy {
+  color: white;
+}
+
+.item-options .button-save {
+  color: #32425c;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.header {
+  background-color: #f4f7f9;
+}
+
+.site-navigation,
+.user-navigation,
+.pagination,
+.items-list,
+.brands-list,
+.delivery-companies,
+.footer-site-navigation,
+.footer-catalog-navigation,
+.social,
+.breadcrumb,
+.filter-brands-list,
+.filter-power-list {
+  list-style: none;
+}
+
+.user-navigation {
+  background-color: #293449;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+
+.user-navigation a:hover {
+  background-color: #212a3a;
+}
+
+.user-navigation a:active {
+  background-color: #161d29;
+  color:rgba(255, 255, 255, 0.6);
+}
+
+input.search:focus,
+input.search:active {
+outline: none;
+background-color: white;
+color: black;
+}
+
+.logo {
+  background-color: #ee3643;
+  /*width: 220px;
+  height: 47px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);*/
+}
+
+.logo:hover {
+  background-color: #ca2c37;
+}
+
+.logo:active {
+  background-color: #ba2732;
+}
+
+.search {
+  background-color: #293449;
+  border: none;
+}
+
+.search::placeholder {
+  color: #fff;
+}
+
+.cart-full {
+  width: 150px;
+  text-align: center;
+  background-color: #ee3643;
+}
+
+.user-nav-item .order{
+  width: 150px;
+  text-align: center;
+  background-color: #63a63e;
+}
+
+.user-nav-item .order:hover {
+  background-color: #5fbb2d;
+}
+
+.user-nav-item .order:active {
+  background-color: #5fbb2d;
+}
+
+.header-description {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.44;
+  color: #ee3643;
+}
+
+.header-contacts a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  color: #e9292a;
+}
+
+.header-contacts p {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  color: #32425c;
+}
+
+.personal-account a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  color: #000000;
+  background-color: #fff;
+}
+.personal-account a:hover {
+  color: #ee3643;
+}
+
+.personal-account a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.personal-account .logged-in:hover {
+  color: #000000;
+}
+
+.personal-account .logged-in:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.personal-links a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #32425c;
+}
+
+.personal-links a:hover {
+  color: #ee3643;
+}
+
+.personal-links a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  background-color: #293449;
+}
+
+.nav-item:hover {
+  background-color: #212a3a;
+}
+
+.nav-item:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-item {
+
+}
+
+.promo-block {
+  font-family: "Cuprum", Arial, sans-serif;
+  color: #ffffff;
+}
+
+.promo {
+  width: 300px;
+}
+
+.promo-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-promo {
+  width: 115px;
+  color: #ffffff;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.button-promo:hover {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.button-promo.active {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.materials {
+  background-color: #ffbf47;
+}
+
+.tools {
+  background-color: #3bbce3;
+}
+
+.technics {
+  background-color: #dc91d8;
+}
+
+.sale {
+  background-color: #8ed78f;
+}
+
+.delivery {
+  background-color: #ffc047;
+}
+
+.slider {
+  width: 620px;
+  background-color: #32425c;
+  background-image: url("../img/slider2.jpg");
+}
+
+.slider-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.slider-text {
+  font-size: 18px;
+}
+
+.slider .button {
+  width: 175px;
+}
+
+.index-titles {
+  background-color: #f9f5f0;
+}
+
+.subtitle {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.services .subtitle,
+.main-description .subtitle,
+.main-contacts .subtitle {
+  color: #000000;
+}
+
+.item {
+  width: 220px;
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+}
+
+.item-name {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.old-price {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+.price {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ee3643;
+  position: relative;
+}
+
+.price::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  position: absolute;
+  border: 9px solid #ee3643;
+  border-right-width: 0;
+  border-left-color: #ee3643;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.brands-list {
+  display: flex;
+}
+
+.brand {
+  width: 220px;
+  border: solid 1px #eaeaea;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.brand a {
+  text-align: center;
+}
+
+.brand:hover {
+  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.brand:active {
+  box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
+  opacity: 0.3;
+}
+
+.services {
+  background-color: #f4f7f9;
+}
+
+.services-list dt {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #fff;
+  box-shadow:
+  0px 1px 0 0 #293449,
+  inset 0px 1px 0 0 #405069;
+  background-color: #32425c;
+}
+
+.service-name {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.delivery-companies li{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  position: relative;
+}
+
+.delivery-companies li:before {
+  content: "";
+  position: absolute;
+  left: -21px;
+  top: 30px;
+  width: 25px;
+  height: 2px;
+  background-color: #ee3643;
+}
+
+.footer-columns {
+  background-color: #32425c;
+}
+.footer-columns .logo {
+}
+
+.footer-site-navigation a,
+.footer-catalog-navigation a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.footer-site-navigation a {
+  color: #f1f5f7
+}
+
+.footer-catalog-navigation a {
+  color: #ffd180;
+}
+
+.footer-site-navigation a:hover,
+.footer-catalog-navigation a:hover {
+  text-decoration: underline;
+}
+
+.footer-site-navigation a:active {
+  color: rgba(241, 245, 247, 0.5);
+}
+
+.footer-catalog-navigation a:active {
+  color: rgba(255, 209, 128, 0.5);
+}
+
+.footer-columns p{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #f3f7f9;
+}
+
+.footer-bottom {
+  background-color: #293449;
+}
+
+.footer-bottom p {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.13;
+  color: #fff;
+}
+
+.references a {
+  color: #ffd180;
+}
+
+.references a:hover {
+  text-decoration: underline;
+}
+
+.references a:active {
+  color: #ee3643;
+}
+
+.modal {
+  box-shadow: 0px 20px 40px 0 rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: .5s;
+}
+.modal-map {
+  width: 940px;
+  min-height: 446.2px;
+  object-fit: contain;
+}
+
+.modal-feedback {
+  width: 620px;
+  min-height: 430px;
+}
+
+.form-feedback label {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.form-feedback input,
+.form-feedback textarea {
+  border: solid 2px #dee3e4;
+  font-family: inherit;
+  line-height: 1.38;
+}
+
+.form-feedback input::placeholder,
+.form-feedback textarea::placeholder {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  color: #a9a9a9;
+}
+
+.form-feedback input:hover,
+.form-feedback textarea:hover{
+  border-color: #b5b5b5;
+}
+
+.form-feedback input:focus,
+.form-feedback textarea:focus {
+  outline: none;
+  border-color: #ee3643;
+}
+
+.form-feedback input[type="text"],
+.form-feedback input[type="email"] {
+  width: 220px;
+  min-height: 36px;
+}
+
+.form-feedback textarea {
+  width: 456px;
+  min-height: 110px;
+}
+
+.breadcrumb a,
+.filter-headline,
+.sorting a,
+.sorting h2,
+.pagination a {
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.sorting a {
+color: rgba(0, 0, 0, 0.18);
+text-decoration: underline dotted red;
+}
+
+.sorting a:hover {
+  color: #000000;
+  text-decoration: underline red;
+}
+
+.sorting .active {
+  color: red;
+  text-decoration: none;
+}
+
+.filter-form legend {
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.filter-form label {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* ----- Сеточные стили ----- */
+
+html,
+body {
+  min-width: 1200px;
+  min-height: 3151px;
+}
+
+.header {
+  width: 1200px;
+  min-height: 320px;
+}
+
+.user-navigation {
+  min-width: 1200px;
+  min-height: 42px;
+  margin-bottom: 46px;
+  display: flex;
+  padding-right: 130px;
+  padding-left: 130px;
+}
+
+.container-index {
+  width: 1200px;
+  min-height: 2530px;
+}
+
+.footer {
+  width: 1200px;
+  min-height: 300px;
+}
+
+
